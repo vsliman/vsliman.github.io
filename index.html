@@ -228,6 +228,10 @@
     }
   }
 </style>
+    
+<div class="container">
+  ...
+</div>
 
 </head>
 <body>
@@ -263,6 +267,82 @@
                 </div>
             </div>
         </section>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Buttons</title>
+
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .link-button {
+      text-decoration: none;
+      padding: 14px 28px;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 2px solid #000000;
+      background-color: #f4f4f4;
+      color: #000000;
+      transition: all 0.2s ease;
+    }
+
+    .link-button:hover {
+      background-color: #f2b6d8; /* soft pink */
+      color: #000000;
+      border-color: #444444;
+    }
+
+    .dark {
+      background-color: #000000;
+      color: #ffffff;
+      border-color: #000000;
+    }
+
+    .dark:hover {
+      background-color: #333333;
+      border-color: #f2b6d8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="button-container">
+
+    <a class="link-button" href="https://www.google.com" target="_blank">
+      Google
+    </a>
+
+    <a class="link-button dark" href="https://github.com" target="_blank">
+      GitHub
+    </a>
+
+    <a class="link-button" href="https://www.youtube.com" target="_blank">
+      YouTube
+    </a>
+
+    <a class="link-button dark" href="https://www.openai.com" target="_blank">
+      OpenAI
+    </a>
+
+  </div>
+</body>
+</html>
 
         <section id="skills">
             <h2>Technical Skills</h2>
